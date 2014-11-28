@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{3d0f38ed-efb5-476c-b2a1-b2d9c8977f11}" Title="Karaoke_List_2016" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Karaoke_List_2016 author" Description="Sample description" Publisher="Karaoke_List_2016" PublisherID="{3143915a-dd1f-4091-a7a5-e57141b0b4da}">
+  <App xmlns="" ProductID="{93eddeaa-e1d6-4e30-941f-a44d98652dfc}" Title="Karaoke_List_2016" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Karaoke_List_2016 author" Description="Sample description" Publisher="Karaoke_List_2016" PublisherID="{001e08ef-d433-4dbb-a369-9465b19f0a48}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

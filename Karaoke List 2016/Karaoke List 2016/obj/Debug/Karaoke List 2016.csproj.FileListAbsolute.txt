@@ -17,3 +17,4 @@ c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke L
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.dll
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.pdb
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\XapCacheFile.xml
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\Views\PageAboutUs.g.cs

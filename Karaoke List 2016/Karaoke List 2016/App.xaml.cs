@@ -7,11 +7,14 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Karaoke_List_2016.Resources;
+using Utility;
 
 namespace Karaoke_List_2016
 {
     public partial class App : Application
     {
+        public static bool NeedShowAd = true;
+
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
@@ -61,6 +64,7 @@ namespace Karaoke_List_2016
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            SystemHelper.CountForReview(2);
         }
 
         // Code to execute when the application is activated (brought to foreground)
