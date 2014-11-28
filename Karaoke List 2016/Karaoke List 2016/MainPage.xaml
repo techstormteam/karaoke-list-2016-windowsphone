@@ -11,43 +11,52 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
-    shell:SystemTray.IsVisible="True" Loaded="PageMain_Loaded">
+    shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <ProgressBar Grid.Row="0" Grid.Column="0" x:Name="progressBar" VerticalAlignment="Top" IsIndeterminate="True" Visibility="Collapsed" />
-        <phone:WebBrowser Grid.Row="1" Grid.Column="1" Navigated="WebBrowser_Navigated" IsScriptEnabled="True" Name="webBrowser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+        <!-- LOCALIZATION NOTE:
+            To localize the displayed strings copy their values to appropriately named
+            keys in the app's neutral language resource file (AppResources.resx) then
+            replace the hard-coded text value between the attributes' quotation marks
+            with the binding clause whose path points to that string name.
+
+            For example:
+
+                Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}"
+
+            This binding points to the template's string resource named "ApplicationTitle".
+
+            Adding supported languages in the Project Properties tab will create a
+            new resx file per language that can carry the translated values of your
+            UI strings. The binding in these examples will cause the value of the
+            attributes to be drawn from the .resx file that matches the
+            CurrentUICulture of the app at run time.
+         -->
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+
+        </Grid>
+
+        <!--Uncomment to see an alignment grid to help ensure your controls are
+            aligned on common boundaries.  The image has a top margin of -32px to
+            account for the System Tray. Set this to 0 (or remove the margin altogether)
+            if the System Tray is hidden.
+
+            Before shipping remove this XAML and the image itself.-->
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
     </Grid>
-
-    <phone:PhoneApplicationPage.ApplicationBar>
-        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True"
-                              ForegroundColor="White" BackgroundColor="#80000000">
-            <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.back.png" Text="backward"
-                                            Click="btnBack_Click"/>
-            <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.home.png" Text="home"
-                                            Click="btnHome_Click"/>
-            <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.refresh.png" Text="refresh"
-                                            Click="btnRefresh_Click"/>
-            <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.next.png" Text="forward"
-                                            Click="btnForward_Click"/>
-            <!--<shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem Text="sign in" Click="btnSignin_Click" />
-                <shell:ApplicationBarMenuItem Text="my subscribes" Click="btnSubscription_Click" />
-                <shell:ApplicationBarMenuItem Text="history" Click="btnHistory_Click" />
-                <shell:ApplicationBarMenuItem Text="see the following" Click="btnSeeFollowing_Click" />
-                <shell:ApplicationBarMenuItem Text="inbox" Click="btnInbox_Click" />
-
-                <shell:ApplicationBarMenuItem Text="rating" Click="btnRating_Click" />
-                <shell:ApplicationBarMenuItem Text="update version" Click="btnUpdateVersion_Click" />
-                <shell:ApplicationBarMenuItem Text="about us" Click="btnAboutUs_Click" />
-            </shell:ApplicationBar.MenuItems>-->
-        </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
 
 </phone:PhoneApplicationPage>
