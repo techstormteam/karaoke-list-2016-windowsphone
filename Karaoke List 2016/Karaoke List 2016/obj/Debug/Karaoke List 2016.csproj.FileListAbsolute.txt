@@ -30,3 +30,6 @@ c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke L
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\qualifiers.txt.intermediate
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\ProjectArchitectures.txt
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.csprojResolveAssemblyReference.cache
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.exe
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.pdb

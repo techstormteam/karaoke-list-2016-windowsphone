@@ -8,7 +8,40 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ProgressBar Grid.Row="0" Grid.Column="0" x:Name="progressBar" VerticalAlignment="Top" IsIndeterminate="True" Visibility="Collapsed" />
+        <phone:WebBrowser Grid.Row="1" Grid.Column="1" Navigated="WebBrowser_Navigated" IsScriptEnabled="True" Name="webBrowser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
     </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True"
+                              ForegroundColor="White" BackgroundColor="#80000000">
+            <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.back.png" Text="backward"
+                                            Click="btnBack_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.home.png" Text="home"
+                                            Click="btnHome_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.refresh.png" Text="refresh"
+                                            Click="btnRefresh_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.next.png" Text="forward"
+                                            Click="btnForward_Click"/>
+            <!--<shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="sign in" Click="btnSignin_Click" />
+                <shell:ApplicationBarMenuItem Text="my subscribes" Click="btnSubscription_Click" />
+                <shell:ApplicationBarMenuItem Text="history" Click="btnHistory_Click" />
+                <shell:ApplicationBarMenuItem Text="see the following" Click="btnSeeFollowing_Click" />
+                <shell:ApplicationBarMenuItem Text="inbox" Click="btnInbox_Click" />
+
+                <shell:ApplicationBarMenuItem Text="rating" Click="btnRating_Click" />
+                <shell:ApplicationBarMenuItem Text="update version" Click="btnUpdateVersion_Click" />
+                <shell:ApplicationBarMenuItem Text="about us" Click="btnAboutUs_Click" />
+            </shell:ApplicationBar.MenuItems>-->
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
 </Page>

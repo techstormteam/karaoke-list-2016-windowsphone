@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Utility;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -99,6 +100,8 @@ namespace Karaoke_List_2016
 
             // Ensure the current window is active
             Window.Current.Activate();
+
+            SystemHelper.CountForReview(1);
         }
 
         /// <summary>

@@ -81,7 +81,6 @@
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Folder Include="Utility\GoogleAds\" />
-    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -102,6 +101,9 @@
     <Compile Include="Utility\VersionUpdateHelper.cs" />
     <Compile Include="Utility\WebBrowserHelper.cs" />
     <Compile Include="Utility\YoutubeHelper.cs" />
+    <Compile Include="Views\PageAboutUs.xaml.cs">
+      <DependentUpon>PageAboutUs.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -109,6 +111,11 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\ApplicationBar\appbar.back.png" />
+    <Content Include="Assets\ApplicationBar\appbar.home.png" />
+    <Content Include="Assets\ApplicationBar\appbar.next.png" />
+    <Content Include="Assets\ApplicationBar\appbar.refresh.png" />
+    <Content Include="Assets\Images\app.icon.png" />
     <Content Include="Assets\Logo.scale-240.png" />
     <Content Include="Assets\SmallLogo.scale-240.png" />
     <Content Include="Assets\SplashScreen.scale-240.png" />
@@ -125,6 +132,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\PageAboutUs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="GoogleAds">
+      <HintPath>Utility\GoogleAds\GoogleAds.dll</HintPath>
+    </Reference>
+    <Reference Include="Inneractive.Ad">
+      <HintPath>Utility\InneractiveNokiaAd\Inneractive.Ad.dll</HintPath>
+    </Reference>
+    <Reference Include="SOMAWP8">
+      <HintPath>Utility\SOMAWP8.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
