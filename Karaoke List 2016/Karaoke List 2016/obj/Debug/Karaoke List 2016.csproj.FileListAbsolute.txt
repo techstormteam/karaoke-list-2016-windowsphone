@@ -43,3 +43,7 @@ E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windo
 E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\App.xaml
 E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\App.xbf
 E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\XamlSaveStateFile.xml
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\MainPage.xaml
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Views\PageAboutUs.xaml
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\MainPage.xbf
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Views\PageAboutUs.xbf

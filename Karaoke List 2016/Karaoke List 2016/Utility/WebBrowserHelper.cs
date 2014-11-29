@@ -36,7 +36,7 @@ namespace Utility
             current = e.Uri;
         }
 
-        public void BackKeyPress(WebView webBrowser, System.ComponentModel.CancelEventArgs e)
+        public void BackKeyPress(WebView webBrowser, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
             if (!isPerformingCloseOperation)
             {
@@ -52,7 +52,7 @@ namespace Utility
                     // What about using script and going history.back? 
                     // you can do it, but 
                     // I rather use that to keep ‘track’ consistently with our stack 
-                    e.Cancel = true;
+                    e.Handled = true;
 
                     if (forwardUri != null)
                     {

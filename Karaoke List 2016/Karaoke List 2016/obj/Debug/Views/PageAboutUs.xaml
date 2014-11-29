@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="Karaoke_List_2016.Views.PageAboutUs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Karaoke_List_2016.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28" Orientation="Horizontal">
+            <Image Source="/Assets/Images/app.icon.png" Width="120" Height="120"/>
+            <Grid>
+                <StackPanel Margin="8,0,0,0" VerticalAlignment="Bottom">
+                    <TextBlock Text="Version 1.0.0.0" />
+                    <TextBlock Text="Update 30/07/2014" Foreground="{StaticResource PhoneSubtleBrush}" />
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <StackPanel>
+                <TextBlock Text="Introduction" FontWeight="Bold"/>
+                <TextBlock TextWrapping="Wrap" Text="First, I'm very happy when you are using my application. This application is a youtube app that you can view, like, comment, subscribe,... clips. Have fun! :)."/>
+                <TextBlock x:ConnectionId='1' x:Name="lblRating" Margin="0,10,0,0" Foreground="#3a579d" FontSize="24" FontWeight="Bold" Text="rating and comment"                         />
+                <TextBlock x:ConnectionId='2' x:Name="lblUpdateVersion" Margin="0,10,0,0" Foreground="#3a579d" FontSize="24" FontWeight="Bold" Text="update new version"                               />
+                <TextBlock x:ConnectionId='3' x:Name="lblMyLink" Margin="0,10,0,0" Foreground="#3a579d" FontSize="24" FontWeight="Bold" Text="author's link"                        />
+
+                <TextBlock TextWrapping="Wrap" Margin="0,14,0,0" Text="The application is developed by: " />
+                <TextBlock x:ConnectionId='4' x:Name="lblMyTeam" Foreground="#3a579d" FontSize="30" FontWeight="Bold" Text="Tech Storm"                        />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
+

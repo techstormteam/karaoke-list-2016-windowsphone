@@ -90,12 +90,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utility\InneractiveNokiaAd\IaLocationClass.cs" />
-    <Compile Include="Utility\InneractiveNokiaAd\InneractiveAdHelper.cs" />
-    <Compile Include="Utility\InneractiveNokiaAd\InneractiveAdLocation.cs" />
-    <Compile Include="Utility\InneractiveNokiaAd\MyIaAdEventHandlers.cs" />
     <Compile Include="Utility\ScheduledTaskHelper.cs" />
-    <Compile Include="Utility\SomaAdHelper.cs" />
     <Compile Include="Utility\SystemHelper.cs" />
     <Compile Include="Utility\TileHelper.cs" />
     <Compile Include="Utility\VersionUpdateHelper.cs" />
@@ -140,9 +135,6 @@
   <ItemGroup>
     <Reference Include="GoogleAds">
       <HintPath>Utility\GoogleAds\GoogleAds.dll</HintPath>
-    </Reference>
-    <Reference Include="Inneractive.Ad">
-      <HintPath>Utility\InneractiveNokiaAd\Inneractive.Ad.dll</HintPath>
     </Reference>
     <Reference Include="SOMAWP8">
       <HintPath>Utility\SOMAWP8.dll</HintPath>

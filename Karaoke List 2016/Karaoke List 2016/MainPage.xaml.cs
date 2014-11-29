@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Karaoke_List_2016.Views;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,6 +7,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Utility;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -53,37 +55,20 @@ namespace Karaoke_List_2016
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
-        }
 
-        public void GotoPage(string pageName)
-        {
-            this.NavigationService.Navigate(new Uri("/" + pageName, UriKind.RelativeOrAbsolute));
-        }
-
-        private void PageMain_Loaded(object sender, RoutedEventArgs e)
-        {
-            if (App.NeedShowAd)
-            {
-                InneractiveAdHelper.DisplayInterstitial(LayoutRoot);
-                App.NeedShowAd = false;
-            }
-            webBrowser.Navigate(new Uri(homeUrl, UriKind.Absolute));
-        }
-
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
             base.OnNavigatedTo(e);
             string appTitle = SystemHelper.GetAppTitle();
             SystemHelper.AskForReview(appTitle);
+            Windows.Phone.UI.Input.HardwareButtons.BackPressed += HardwareButtons_BackPressed;
         }
 
-        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        private async void HardwareButtons_BackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
             progressBar.Visibility = Visibility.Visible;
-            base.OnBackKeyPress(e);
+            //base.OnBackKeyPress(e);
             wbBackKeyPress.BackKeyPress(webBrowser, e);
             progressBar.Visibility = Visibility.Collapsed;
-            if (e.Cancel)
+            if (e.Handled)
             {
                 return;
             }
@@ -91,16 +76,48 @@ namespace Karaoke_List_2016
             string caption = "Thoát";
             string appTitle = SystemHelper.GetAppTitle();
             string message = "Bạn muốn thoát khỏi " + appTitle + "?";
-            e.Cancel = MessageBoxResult.Cancel == MessageBox.Show(message, caption,
-            MessageBoxButton.OKCancel);
+            MessageDialog msgDialog = new MessageDialog(message, caption);
 
-            base.OnBackKeyPress(e);
+            //OK Button
+            UICommand okBtn = new UICommand("OK");
+            okBtn.Invoked = (s) =>
+            {
+                e.Handled = false;
+            };
+            msgDialog.Commands.Add(okBtn);
+
+            //Cancel Button
+            UICommand cancelBtn = new UICommand("Cancel");
+            cancelBtn.Invoked = (s) => { e.Handled = true; };
+            msgDialog.Commands.Add(cancelBtn);
+
+            await msgDialog.ShowAsync();
+        }
+
+        private void backPress() {
+
+        }
+
+        public void GotoPage(Type pageName)
+        {
+            Frame.Navigate(pageName);
+        }
+
+        private void PageMain_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (App.NeedShowAd)
+            {
+                //InneractiveAdHelper.DisplayInterstitial(LayoutRoot);
+                App.NeedShowAd = false;
+            }
+            webBrowser.Navigate(new Uri(homeUrl, UriKind.Absolute));
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
             progressBar.Visibility = Visibility.Visible;
-            OnBackKeyPress(new System.ComponentModel.CancelEventArgs());
+            object obj = new object();
+            //HardwareButtons_BackPressed(obj, new Windows.Phone.UI.Input.BackPressedEventArgs());
             progressBar.Visibility = Visibility.Collapsed;
         }
 
@@ -142,7 +159,7 @@ namespace Karaoke_List_2016
 
         private void btnAboutUs_Click(object sender, EventArgs e)
         {
-            GotoPage("/Views/PageAboutUs.xaml");
+            GotoPage(typeof(PageAboutUs));
         }
 
 
@@ -171,27 +188,27 @@ namespace Karaoke_List_2016
         //    webBrowser.Navigate(new Uri(inboxUrl, UriKind.Absolute));
         //}
 
-        private void PhoneApplicationPage_OrientationChanged(object sender, OrientationChangedEventArgs e)
-        {
-            // Switch the placement of the buttons based on an orientation change.
-            if ((e.Orientation & PageOrientation.Portrait) == (PageOrientation.Portrait))
-            {
-                Grid.SetRow(webBrowser, 1);
-                Grid.SetColumn(webBrowser, 0);
-            }
-            // If not in portrait, move buttonList content to visible row and column.
-            else
-            {
-                Grid.SetRow(webBrowser, 0);
-                Grid.SetColumn(webBrowser, 1);
-            }
-        }
-
         private void WebBrowser_Navigated(WebView sender, WebViewNavigationCompletedEventArgs args)
         {
             progressBar.Visibility = Visibility.Visible;
             wbBackKeyPress.Navigated(args);
             progressBar.Visibility = Visibility.Collapsed;
+        }
+
+        private void Page_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            //// Switch the placement of the buttons based on an orientation change.
+            //if ((e.Orientation & PageOrientation.Portrait) == (PageOrientation.Portrait))
+            //{
+            //    Grid.SetRow(webBrowser, 1);
+            //    Grid.SetColumn(webBrowser, 0);
+            //}
+            //// If not in portrait, move buttonList content to visible row and column.
+            //else
+            //{
+            //    Grid.SetRow(webBrowser, 0);
+            //    Grid.SetColumn(webBrowser, 1);
+            //}
         }
     }
 }
