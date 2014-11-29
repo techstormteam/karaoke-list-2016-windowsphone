@@ -1,19 +1,32 @@
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Assets\ApplicationIcon.png
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Assets\Tiles\IconicTileSmall.png
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Karaoke List 2016.dll
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Karaoke List 2016.pdb
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\AppManifest.xaml
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Properties\WMAppManifest.xml
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Bin\Debug\Karaoke_List_2016_Debug_AnyCPU.xap
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\App.xbf
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\MainPage.xbf
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.xr.xml
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.exe
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.pdb
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\resources.pri
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\AppxManifest.xml
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.build.appxrecipe
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\App.g.i.cs
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\App.g.cs
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\MainPage.g.i.cs
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\MainPage.g.cs
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.g.resources
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke_List_2016.Resources.AppResources.resources
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.csproj.GenerateResource.Cache
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.dll
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\XamlTypeInfo.g.cs
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\App.xaml
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\MainPage.xaml
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\App.xbf
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\MainPage.xbf
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\XamlSaveStateFile.xml
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.exe
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.pdb
-c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\XapCacheFile.xml
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\priconfig.xml
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\priconfig.xml.intermediate
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\layout.resfiles
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\layout.resfiles.intermediate
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\resources.resfiles
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\resources.resfiles.intermediate
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\pri.resfiles
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\pri.resfiles.intermediate
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\qualifiers.txt
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\qualifiers.txt.intermediate
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\ProjectArchitectures.txt
