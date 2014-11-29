@@ -17,11 +17,28 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <ProgressBar Grid.Row="0" Grid.Column="0" x:Name="progressBar" VerticalAlignment="Top" IsIndeterminate="True" Visibility="Collapsed" />
-        <phone:WebBrowser Grid.Row="1" Grid.Column="1" Navigated="WebBrowser_Navigated" IsScriptEnabled="True" Name="webBrowser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <WebView Grid.Row="1" Grid.Column="1"  Name="webBrowser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationCompleted="WebBrowser_Navigated" />
     </Grid>
 
-    <phone:PhoneApplicationPage.ApplicationBar>
-        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True"
+    <Page.BottomAppBar>
+        <CommandBar IsSticky="True" >
+            <CommandBar.PrimaryCommands>
+
+                <AppBarButton Icon="Back" IsCompact="False" Label="backward"/>
+                <AppBarButton Icon="Home" IsCompact="False" Label="home"/>
+                <AppBarButton Icon="Refresh" IsCompact="False" Label="refresh"/>
+                <AppBarButton Icon="Forward" IsCompact="False" Label="forward"/>
+            </CommandBar.PrimaryCommands>
+            <!--<CommandBar.SecondaryCommands>
+                <AppBarButton Label="Test01"/>
+                <AppBarButton Label="Test02"/>
+            </CommandBar.SecondaryCommands>-->
+        </CommandBar>
+    </Page.BottomAppBar>
+
+
+    <!--<Page.BottomAppBar>
+        <CommandBar IsSticky="True" IsMenuEnabled="True"
                               ForegroundColor="White" BackgroundColor="#80000000">
             <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.back.png" Text="backward"
                                             Click="btnBack_Click"/>
@@ -31,7 +48,7 @@
                                             Click="btnRefresh_Click"/>
             <shell:ApplicationBarIconButton IconUri="/Assets/ApplicationBar/appbar.next.png" Text="forward"
                                             Click="btnForward_Click"/>
-            <!--<shell:ApplicationBar.MenuItems>
+            <shell:ApplicationBar.MenuItems>
                 <shell:ApplicationBarMenuItem Text="sign in" Click="btnSignin_Click" />
                 <shell:ApplicationBarMenuItem Text="my subscribes" Click="btnSubscription_Click" />
                 <shell:ApplicationBarMenuItem Text="history" Click="btnHistory_Click" />
@@ -41,7 +58,7 @@
                 <shell:ApplicationBarMenuItem Text="rating" Click="btnRating_Click" />
                 <shell:ApplicationBarMenuItem Text="update version" Click="btnUpdateVersion_Click" />
                 <shell:ApplicationBarMenuItem Text="about us" Click="btnAboutUs_Click" />
-            </shell:ApplicationBar.MenuItems>-->
-        </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
+            </shell:ApplicationBar.MenuItems>
+        </CommandBar>
+    </Page.BottomAppBar>-->
 </Page>

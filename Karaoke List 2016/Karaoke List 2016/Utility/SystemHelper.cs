@@ -13,41 +13,44 @@ namespace Utility
     {
         public static void CountForReview(int numStartToAsk)
         {
-            IsolatedStorageSettings.ApplicationSettings["askforreview"] = false;
+            var localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+            localSettings.Values["askforreview"] = false;
 
             int started = 0;
-            if (IsolatedStorageSettings.ApplicationSettings.Contains("started"))
+            if (localSettings.Values.ContainsKey("started"))
             {
-                started = (int)IsolatedStorageSettings.ApplicationSettings["started"];
+                started = (int)localSettings.Values["started"];
             }
             started++;
-            IsolatedStorageSettings.ApplicationSettings["started"] = started;
+            localSettings.Values["started"] = started;
 
             bool reviewed = false;
-            if (IsolatedStorageSettings.ApplicationSettings.Contains("reviewed"))
+            if (localSettings.Values.ContainsKey("reviewed"))
             {
-                reviewed = (bool)IsolatedStorageSettings.ApplicationSettings["reviewed"];
+                reviewed = (bool)localSettings.Values["reviewed"];
             }
 
             if (reviewed == false && started >= numStartToAsk)
             {
-                IsolatedStorageSettings.ApplicationSettings["askforreview"] = true;
+                localSettings.Values["askforreview"] = true;
             }
         }
 
         public static void AskForReview(string appName)
         {
-            var askforReview = (bool)IsolatedStorageSettings.ApplicationSettings["askforreview"];
+            var localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+            var askforReview = (bool)localSettings.Values["askforreview"];
             if (askforReview)
             {
                 //make sure we only ask once! 
-                IsolatedStorageSettings.ApplicationSettings["askforreview"] = false;
+                localSettings.Values["askforreview"] = false;
+
                 var ok = MessageBox.Show(
                     string.Format("Cảm ơn bạn đã sử dụng {0}, Hãy đánh giá 5 sao cho ứng dụng và comment chức năng mà bạn muốn ở phiên bản kế tiếp.", appName), 
                     "Hãy đánh giá 5 sao!", MessageBoxButton.OKCancel);
                 if (ok == MessageBoxResult.OK)
                 {
-                    IsolatedStorageSettings.ApplicationSettings["reviewed"] = true;
+                    localSettings.Values["reviewed"] = true;
                     var marketplaceReviewTask = new MarketplaceReviewTask();
                     marketplaceReviewTask.Show();
                 }

@@ -37,22 +37,17 @@ namespace Karaoke_List_2016.Views
         {
         }
 
-        private void lblRating_Tap(object sender, System.Windows.Input.GestureEventArgs e)
-        {
-            SystemHelper.RateAndReview();
-        }
-
-        private void lblUpdateVersion_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        private void lblUpdateVersion_Tap(object sender, TappedRoutedEventArgs e)
         {
             SystemHelper.UpdateVersion();
         }
 
-        private void lblMyLink_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        private void lblMyLink_Tap(object sender, TappedRoutedEventArgs e)
         {
             SystemHelper.OpenLink("http://techstorm-solution.com/");
         }
 
-        private void lblMyTeam_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        private void lblMyTeam_Tap(object sender, TappedRoutedEventArgs e)
         {
             SystemHelper.OpenLink("http://techstorm-solution.com/");
         }
@@ -60,6 +55,11 @@ namespace Karaoke_List_2016.Views
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
             lblMyTeam.Text = SystemHelper.GetAppAuthor();
+        }
+
+        private void lblRating_Tap(object sender, TappedRoutedEventArgs e)
+        {
+            SystemHelper.RateAndReview();
         }
     }
 }

@@ -1,12 +1,10 @@
-﻿using Microsoft.Phone.Controls;
-using Microsoft.Phone.Tasks;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO.IsolatedStorage;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using Windows.UI.Xaml.Controls;
 
 namespace Utility
 {
@@ -17,7 +15,7 @@ namespace Utility
         Uri current = null;
         bool isPerformingCloseOperation = false;
 
-        public void Navigated(System.Windows.Navigation.NavigationEventArgs e)
+        public void Navigated(WebViewNavigationCompletedEventArgs e)
         {
             Uri previous = null;
             if (history.Count > 0) {
@@ -38,7 +36,7 @@ namespace Utility
             current = e.Uri;
         }
 
-        public void BackKeyPress(WebBrowser webBrowser, System.ComponentModel.CancelEventArgs e)
+        public void BackKeyPress(WebView webBrowser, System.ComponentModel.CancelEventArgs e)
         {
             if (!isPerformingCloseOperation)
             {
@@ -64,7 +62,7 @@ namespace Utility
             }
         }
 
-        public void Forward(WebBrowser webBrowser)
+        public void Forward(WebView webBrowser)
         {
             if (!isPerformingCloseOperation)
             {

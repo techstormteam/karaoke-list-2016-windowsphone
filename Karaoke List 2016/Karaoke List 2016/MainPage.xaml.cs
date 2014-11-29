@@ -77,13 +77,6 @@ namespace Karaoke_List_2016
             SystemHelper.AskForReview(appTitle);
         }
 
-        private void WebBrowser_Navigated(object sender, System.Windows.Navigation.NavigationEventArgs e)
-        {
-            progressBar.Visibility = Visibility.Visible;
-            wbBackKeyPress.Navigated(e);
-            progressBar.Visibility = Visibility.Collapsed;
-        }
-
         protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
         {
             progressBar.Visibility = Visibility.Visible;
@@ -192,6 +185,13 @@ namespace Karaoke_List_2016
                 Grid.SetRow(webBrowser, 0);
                 Grid.SetColumn(webBrowser, 1);
             }
+        }
+
+        private void WebBrowser_Navigated(WebView sender, WebViewNavigationCompletedEventArgs args)
+        {
+            progressBar.Visibility = Visibility.Visible;
+            wbBackKeyPress.Navigated(args);
+            progressBar.Visibility = Visibility.Collapsed;
         }
     }
 }
