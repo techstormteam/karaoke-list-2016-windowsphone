@@ -103,15 +103,6 @@ namespace Karaoke_List_2016
             Frame.Navigate(pageName);
         }
 
-        private void PageMain_Loaded(object sender, RoutedEventArgs e)
-        {
-            if (App.NeedShowAd)
-            {
-                //InneractiveAdHelper.DisplayInterstitial(LayoutRoot);
-                App.NeedShowAd = false;
-            }
-            webBrowser.Navigate(new Uri(homeUrl, UriKind.Absolute));
-        }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
@@ -209,6 +200,16 @@ namespace Karaoke_List_2016
             //    Grid.SetRow(webBrowser, 0);
             //    Grid.SetColumn(webBrowser, 1);
             //}
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (App.NeedShowAd)
+            {
+                //InneractiveAdHelper.DisplayInterstitial(LayoutRoot);
+                App.NeedShowAd = false;
+            }
+            webBrowser.Navigate(new Uri(homeUrl, UriKind.Absolute));
         }
     }
 }

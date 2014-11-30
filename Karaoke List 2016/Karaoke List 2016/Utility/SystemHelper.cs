@@ -77,11 +77,11 @@ namespace Utility
 
         public static string GetAppTitle()
         {
-            string appTitle = (from manifest in
-                                System.Xml.Linq.XElement.Load("WMAppManifest.xml").Descendants("App")
-                            select
-                            manifest).SingleOrDefault().Attribute("Title").Value;
-            return appTitle;
+            //string appTitle = (from manifest in
+            //                    System.Xml.Linq.XElement.Load("WMAppManifest.xml").Descendants("App")
+            //                select
+            //                manifest).SingleOrDefault().Attribute("Title").Value;
+            return "Karaoke List 2016";
         }
 
         public static string GetAppAuthor()

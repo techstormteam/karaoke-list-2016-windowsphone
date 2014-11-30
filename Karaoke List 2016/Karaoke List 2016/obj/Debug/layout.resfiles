@@ -1,3 +1,8 @@
+Assets\ApplicationBar\appbar.back.png
+Assets\ApplicationBar\appbar.home.png
+Assets\ApplicationBar\appbar.next.png
+Assets\ApplicationBar\appbar.refresh.png
+Assets\Images\app.icon.png
 Assets\Logo.scale-240.png
 Assets\SmallLogo.scale-240.png
 Assets\SplashScreen.scale-240.png
@@ -7,3 +12,4 @@ Assets\WideLogo.scale-240.png
 App.xbf
 Karaoke List 2016.xr.xml
 MainPage.xbf
+Views\PageAboutUs.xbf

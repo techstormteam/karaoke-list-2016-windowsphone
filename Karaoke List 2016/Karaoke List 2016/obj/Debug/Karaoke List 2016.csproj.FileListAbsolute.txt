@@ -30,7 +30,6 @@ c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke L
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\qualifiers.txt.intermediate
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\ProjectArchitectures.txt
-E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.csprojResolveAssemblyReference.cache
 E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.exe
 E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Karaoke List 2016.pdb
 E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\App.g.i.cs
@@ -47,3 +46,24 @@ E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windo
 E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Views\PageAboutUs.xaml
 E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\MainPage.xbf
 E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\Views\PageAboutUs.xbf
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\App.xbf
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\MainPage.xbf
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\Views\PageAboutUs.xbf
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.xr.xml
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.exe
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.pdb
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\resources.pri
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\AppxManifest.xml
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.build.appxrecipe
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\priconfig.xml
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\priconfig.xml.intermediate
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\layout.resfiles
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\layout.resfiles.intermediate
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\resources.resfiles
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\resources.resfiles.intermediate
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\pri.resfiles
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\pri.resfiles.intermediate
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\qualifiers.txt
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\qualifiers.txt.intermediate
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\ProjectArchitectures.txt

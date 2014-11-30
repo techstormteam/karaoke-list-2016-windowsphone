@@ -7,52 +7,70 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>5b6ac025-2d8c-456f-8c20-137852ded748</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.exe">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.exe">
       <PackagePath>Karaoke List 2016.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\ApplicationBar\appbar.back.png">
+      <PackagePath>Assets\ApplicationBar\appbar.back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\ApplicationBar\appbar.home.png">
+      <PackagePath>Assets\ApplicationBar\appbar.home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\ApplicationBar\appbar.next.png">
+      <PackagePath>Assets\ApplicationBar\appbar.next.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\ApplicationBar\appbar.refresh.png">
+      <PackagePath>Assets\ApplicationBar\appbar.refresh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\Images\app.icon.png">
+      <PackagePath>Assets\Images\app.icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.xr.xml">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\Views\PageAboutUs.xbf">
+      <PackagePath>Views\PageAboutUs.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\Karaoke List 2016.xr.xml">
       <PackagePath>Karaoke List 2016.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\thien\documents\visual studio 2013\Projects\Karaoke List 2016\Karaoke List 2016\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\Programming\sourcecode\karaoke-list-2016-windowsphone\karaoke-list-2016-windowsphone\Karaoke List 2016\Karaoke List 2016\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
