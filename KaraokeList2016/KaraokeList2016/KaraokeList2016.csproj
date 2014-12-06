@@ -176,9 +176,8 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="GoogleAds, Version=6.5.13.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Projects\KaraokeList2016\KaraokeList2016\Utility\GoogleAds\GoogleAds.dll</HintPath>
+    <Reference Include="GoogleAds">
+      <HintPath>C:\Users\Thien\Documents\Visual Studio 2012\Projects\TheGioiPhim\TheGioiPhim\Utility\GoogleAd\GoogleAds.dll</HintPath>
     </Reference>
     <Reference Include="Inneractive.Ad">
       <HintPath>Utility\InneractiveNokiaAd\Inneractive.Ad.dll</HintPath>

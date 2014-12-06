@@ -46,7 +46,7 @@ namespace KaraokeList2016
             {
                 //GoogleAdHelper.DisplayInterstitial("ca-app-pub-7278887713829891/7938330369");
                 GoogleAdHelper.DisplayBanner(banner, "ca-app-pub-7278887713829891/9648735961");
-                GoogleAdHelper.DisplayBanner(banner1, "ca-app-pub-7278887713829891/7055196360");
+                GoogleAdHelper.DisplayBanner(banner1, "ca-app-pub-7278887713829891/5118974765");
                 App.NeedShowAd = false;
             }
             webBrowser.Navigate(new Uri(homeUrl, UriKind.Absolute));
